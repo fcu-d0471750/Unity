@@ -92,7 +92,7 @@ public class Message_Text : MonoBehaviour {
 			//設定訊息現在數量
 			String_Quantity = String_Quantity + 1;
 		}
-		//以達顯示訊息上限
+		//已達顯示訊息上限
 		else{
 			/*//方法1(從頭開始顯示)*************************************
 			//將新的訊息放入第1個Text
@@ -115,19 +115,6 @@ public class Message_Text : MonoBehaviour {
 		}
 
 	}//Show_Message_Function
-
-
-	/*//測試Message
-	public void Button_Message(){
-		
-		string S;
-
-		S = "第" + Number.ToString() + "筆";
-		Show_Message_Function (S);
-
-		Number = Number + 1;
-	
-	}//Button_Message*/
 
 	//提供給需要使用動態顯示的其它腳本
 	public static void Input_String(string Message_String){

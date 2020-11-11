@@ -39,10 +39,6 @@ public class Message_Text_Image : MonoBehaviour {
 	//訊息Animation
 	public Animation[] Message_String_Image_Animation = new Animation[]{};
 
-	// Use this for initialization
-	void Start () {
-
-	}
 
 	// Update is called once per frame
 	void Update () {
